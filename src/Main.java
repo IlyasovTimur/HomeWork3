@@ -36,6 +36,38 @@ public class Main {
 
         //Задача 3.
         System.out.println("Задача 3");
+        int LyudmilaPav = 23;
+        int AnnaSer = 27;
+        int EkaterinaAnd = 30;
+        int totalStudents = LyudmilaPav + AnnaSer + EkaterinaAnd;
+        int totalSheets = 480;
+        System.out.println("На каждого ученика рассчитано " + ( totalSheets / totalStudents) +  " листов бумаги.");
+
+        //Задача 4.
+        System.out.println("Задача 4");
+        int machinePerformance = 16/2; // Производительность машины в 1 минуту.
+        int timeOne = 20;
+        System.out.println("За " + timeOne + " минут работы машина произвела бутылок " + (timeOne * machinePerformance) + " штук");
+        byte day = 1;
+        int timeTwo = 60 * 24; // количество минут в сутках
+        System.out.println("За " + day + " день работы машина произвела бутылок " + (timeTwo * machinePerformance) + " штук");
+        day += 2; // Просто 3 дня
+        int timeThree = timeTwo * 3; // количество минут в 3 сутках
+        System.out.println("За " + day + " дня работы машина произвела бутылок " + (timeThree * machinePerformance) + " штук");
+        byte month = 1;
+        int timeFour = timeTwo * 30; // количество минут в месяце
+        System.out.println("За " + month + " месяц работы машина произвела бутылок " + (timeFour * machinePerformance) + " штук");
+
+        //Задача 5.
+        System.out.println("Задача 5");
+
+
+
+
+
+
+
+
 
 
 
