@@ -60,6 +60,32 @@ public class Main {
 
         //Задача 5.
         System.out.println("Задача 5");
+        byte cans = 120;
+        short white = 2;
+        short brown = 4;
+        int totalClasses = cans / (white+brown); //Общее количество банок, мы делим на сумму банок на класс.
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + (white * totalClasses) + " банок белой краски и " + (brown * totalClasses) + " банок коричневой краски");
+
+        //Задача 6.
+        System.out.println("Задача 6");
+        short bananaWeight = 5 * 80;
+        short milkWeight = (200 / 100) * 105;
+        short iceWeight = 2 * 100;
+        short eggWeight = 4 * 70;
+        int totalWeight = bananaWeight + milkWeight + iceWeight + eggWeight;
+        System.out.println("Общий вес такого спорт-завтрака, после смешивания " + totalWeight + " грамм.");
+        double weightKG = 1000.0;
+        double totalWeightKG = totalWeight / weightKG;
+        System.out.println("Общий вес такого спорт-завтрака, после смешивания " + totalWeightKG + " кг.");
+
+        //задача 7.
+        System.out.println("Задача 7");
+
+
+
+
+
+
 
 
 
