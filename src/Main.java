@@ -121,6 +121,6 @@ public class Main {
 
 
 
-        System.out.println("Домашняя работа 3. Переменные. урок 2");
+        System.out.println("Домашняя работа 3. Переменные. урок 2..");
     }
 }
