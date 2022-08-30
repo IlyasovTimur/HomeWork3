@@ -80,6 +80,14 @@ public class Main {
 
         //задача 7.
         System.out.println("Задача 7");
+        short unnecessaryWeight = 7;
+        int weightGram = unnecessaryWeight * 1000; // перевод 7 кг в граммы.
+        short dietOne = 250;
+        short dietTwo = 500;
+        System.out.println("Если спортсмен будет терять каждый день по " + dietOne + " грамм, то на похудение уйдет " + (weightGram / dietOne) + " дней.");
+        System.out.println("Если спортсмен будет терять каждый день по " + dietTwo + " грамм, то на похудение уйдет " + (weightGram / dietTwo) + " дней.");
+
+
 
 
 
