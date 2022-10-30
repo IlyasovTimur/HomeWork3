@@ -36,10 +36,10 @@ public class Main {
 
         //Задача 3.
         System.out.println("Задача 3");
-        int LyudmilaPav = 23;
-        int AnnaSer = 27;
-        int EkaterinaAnd = 30;
-        int totalStudents = LyudmilaPav + AnnaSer + EkaterinaAnd;
+        int lyudmilaPav = 23;
+        int annaSer = 27;
+        int ekaterinaAnd = 30;
+        int totalStudents = lyudmilaPav + annaSer + ekaterinaAnd;
         int totalSheets = 480;
         System.out.println("На каждого ученика рассчитано " + ( totalSheets / totalStudents) +  " листов бумаги.");
 
@@ -86,30 +86,41 @@ public class Main {
         short dietTwo = 500;
         System.out.println("Если спортсмен будет терять каждый день по " + dietOne + " грамм, то на похудение уйдет " + (weightGram / dietOne) + " дней.");
         System.out.println("Если спортсмен будет терять каждый день по " + dietTwo + " грамм, то на похудение уйдет " + (weightGram / dietTwo) + " дней.");
+        int arithmeticMean = ((weightGram / dietOne) + (weightGram / dietTwo)) / 2;
+        System.out.println("В среднем спортсмену может потребоваться " + arithmeticMean + " день для похудения.");
+
+        //задача 8.
+        System.out.println("Задача 8");
+        // ЗП сотрудников
+        int masha = 67_760;
+        int denis = 83_690;
+        int christina = 76_230;
+        double percent = 1.1; // Процентная ставка повышения ЗП
+        // ЗП с повышением
+        double percentMasha = masha * percent;
+        double percentDenis = denis * percent;
+        double percentChris = christina * percent;
+        short annum = 12; // Месяцев в году
+        // годовой доход
+        int revenueMasha = masha * annum;
+        int revenueDenis = denis * annum;
+        int revenueChristina = christina * annum;
+        // годовой доход с повышением
+        double revenuePercentMasha = (masha * percent) * annum;
+        double revenuePercentDenis = (denis * percent) * annum;
+        double revenuePercentChris = (christina * percent) * annum;
+        // разница в доходах за год
+        double differenceYearMasha = revenuePercentMasha - revenueMasha;
+        double differenceYearDenis = revenuePercentDenis - revenueDenis;
+        double differenceYearChris = revenuePercentChris - revenueChristina;
+
+        System.out.println("Маша теперь получает " + percentMasha + " рублей. Годовой доход вырос на " + differenceYearMasha + " рублей");
+        System.out.println("Денис теперь получает " + percentDenis + " рублей. Годовой доход вырос на " + differenceYearDenis + " рублей");
+        System.out.println("Кристина теперь получает " + percentChris + " рублей. Годовой доход вырос на " + differenceYearChris + " рублей");
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        System.out.println("Домашняя работа 3");
+        System.out.println("Домашняя работа 3. Переменные. урок 2");
     }
 }
